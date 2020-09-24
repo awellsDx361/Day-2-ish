@@ -1,0 +1,43 @@
+There are 3 types of Services
+1. IAAS (Infrastructure As A Service) - making your own software from scratch, they provide software
+2. PAAS (Platform As A Service) - browse application/AWS EMR
+3. SAAS (Software As A Service) - you would just pick it up as they provide the software
+
+Data is a piece of information
+
+OLTP (Online Transaction Processing)
+OLAP (Online Analytical  Processing)
+OLTP has RDBMS (Oracle, MySql, Postages, Sql Server) which are not scalable & NOSQL (Cassandra, MongDB) that are scalable.
+NOSQL is also schemeless
+OLAP uses Data Warehouse
+
+
+Hadoop
+
+Hadoop involves D.C.F, Fault Tolerant & High Availability. 
+The 2 services Hadoop provide are processing and storage. 
+Processing uses Map Reduce & YARN (Yet Another Resource Negotiater). Storage uses HDF
+Storage are called blocks in Hadoop
+
+Hadoop DAEMONS/Processor
+1. NameNode - metadata(data about data)
+2. DataNode - physical data
+3. Secondary NameNode - checkpointing (merging of edit log file & fs image file)
+4. Resource Manager - Resource allocation
+5. Node Manager - Task Execution (executing task on the slave machine)
+
+High availability aims to ensure an agreed level of operational performance usually uptime, for a higher than normal period
+Kerberos - a dog with 3 head (not to be confused with Cerberus)
+Fault Tolerant has no service of interrruption but a significantly higher cost. High availability has minimal service interruption.
+Fault Tolerant - all operations mirrored to the backup server
+
+SQOOP - ingesting data
+HIVE - DWS in Hadoop
+FLUME - Near real time data, ingestion tool
+PIG/PIG LATIN - transforming/converting language into transaction
+HBASE - OLTP(ACID)
+
+Types of Data
+1. Structured (Sql table)
+2. Semi-Structure (sov, csv, xme)
+3. Un-Structure (audio/text/video)
